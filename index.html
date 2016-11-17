@@ -9,13 +9,15 @@
 <p>Using SDS Drop is easy. Just drag&nbsp;an audio sample to one of the pads. The app will transfer the sample to your Rytm, load&nbsp;it to your active project, and make changes to your current kit so that the sample is ready to use immediately.</p>
 <p><img src="sdsdropmain.png" alt="SDS Drop Main Window" width="592" height="530" /></p>
 <p>If you drag multiple samples, they will be loaded to the project, but not linked into your kit.</p>
-<p>SDS Drop gives you a few additional options for sample transfers.</p>
+<h2>REALLY IMPORTANT - Know Where Your Samples&nbsp;Go</h2>
+<p>Sending samples with SDS Drop is very easy, but there is one thing you need to keep in mind. All samples&nbsp;which are sent to the Rytm will be stored on&nbsp;its +DRIVE internal storage.&nbsp;By default, and after restarting your Rytm, this is the INCOMING folder. <span style="color: #ff0000;">If you want to send your sample to a different folder, you MUST choose&nbsp;a folder on your Rytm before sending the sample.</span> Please refer to the official Rytm manual for how to do this.</p>
 <h2>Connecting your Rytm</h2>
 <p>Connect your Rytm Drum Computer to your Mac using a USB cable.</p>
 <h2>Status Indicator</h2>
 <p>In the lower&nbsp;left of the&nbsp;main window, you can see&nbsp;the connection status to your Rytm. If everything is working well, you can see the number of free sample slots in the current Rytm project.</p>
 <p>If there is red text indicating that there is no connection, or no response, try disconnecting your Rytm USB cable and connecting again. If this doesn't work, restart your Rytm drum computer.</p>
 <h2>Transfer Options</h2>
+<p>SDS Drop gives you a few additional options for sample transfers.</p>
 <h3>SMP</h3>
 <p>If this&nbsp;option is enabled, the&nbsp;new sample will be loaded to the&nbsp;current kit's selected track, and the&nbsp;sample volume will be set to maximum, so that you can instantly&nbsp;use the new sample.</p>
 <h3>SYN</h3>
@@ -26,6 +28,7 @@
 <p>Choose whether SDS Drop should&nbsp;convert the sample to 48kHz / 16bit before transfer. If this is disabled, the sample is transferred using its original samplerate / bitdepth. If you want to send lo-fi samples more quickly, disable this option.</p>
 <h3>POOL</h3>
 <p>If this is enabled, after a successful transfer a copy of the track sound which includes a sample is created in the&nbsp;Rytm project's sound pool. SDS Drop will figure out the first unused pool slot, and copy the sound there. This is useful if you want to&nbsp;reuse a sample-based sound in other projects, or use it as sound-lock in other tracks.</p>
+<p>You can also&nbsp;ctrl-click on a pad and choose to copy a sound to the pool from there.</p>
 <h2>STROM Remote Support</h2>
 <p>SDS Drop can act as a relay for the iPad app STROM. Click the STROM button, then enable STROM remote.</p>
 <p>Launch STROM on your iPad. Make sure your iPad and Mac are in the same local WIFI network. The two small dots next to the STROM button indicate whether your iPad is connected successfully.</p>
